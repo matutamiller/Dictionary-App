@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Simple Dictionary App</title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<link href="https://fonts.googleapis.com/css?family=Exo" rel="stylesheet">
+</head>
+<body>
+	<div class="header">
+		<h1>English Dictionary</h1>
+	</div>
+	<div class="wrapper">
+		<div class="words">
+			<input type="text" id="search" placeholder="search ...">
+			<button onclick="search()">Go</button>
+			<ul id="word_list"></ul>	
+		</div>
+		<div class="word">
+			<h3 id="word_text"></h3>
+			<p id="definition"></p>
+			<hr>
+			<h3>Related words</h3>
+			<li id="related"></li>
+		</div>
+	</div>
+<script src="script.js"></script>	
+</body>
+</html>
+

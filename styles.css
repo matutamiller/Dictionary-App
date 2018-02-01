@@ -1,0 +1,72 @@
+html, body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	min-height: 100%;
+	font-family: "Exo", sans-serif;
+	display: block;
+	font-size: 20px;
+}
+.header {
+	width: 50%;
+	margin: 40px auto 0px;
+	color: white;
+	background: #263238;
+	text-align: center;
+	border: 2px solid #263238;
+	border-radius: 8px 8px 0px 0px;
+}
+.wrapper {
+	width: 50%;
+	margin: 0px auto;
+	border: 2px solid #b0bec5;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.words {
+	width: 30%;
+	background: #eceff1;
+	padding-top: 10px;
+	float: left;
+}
+.word {
+	width: 70%;
+	background: #efebe9;
+	padding-left: 10px;
+}
+#word_list {
+	max-height: 400px;
+	overflow-y: scroll;
+}
+
+li {
+	list-style-type: none;
+	line-height: 1.4em;
+}
+
+li:hover {
+	cursor: pointer;
+	color: #263238;
+}
+ul {
+	margin-left: -10px;
+}
+
+h3 {
+	color: #263238;
+}
+
+#search {
+	margin-left: 10px;
+	width: 60%;
+	padding: 5px;
+	height: 13px;
+}
+ button {
+ 	height: 27px;
+ 	background: #263238;
+ 	color: #ffffff;
+ 	border: none;
+ 	border-radius: 4px;
+ }
